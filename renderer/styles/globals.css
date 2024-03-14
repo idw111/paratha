@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #__next {
+    @apply h-full w-full;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    @apply rounded bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-500;
+  }
+}

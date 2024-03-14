@@ -1,0 +1,12 @@
+appId: com.vegastudio.paratha
+productName: Paratha
+copyright: Copyright © 2024 Vegastudio Co
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
